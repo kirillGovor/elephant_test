@@ -11,3 +11,87 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.tableDiv{
+  width: 10px;
+  height: 10px;
+  margin: 0;
+  padding: 0;
+  border: solid 1px black;
+}
+.divColors{
+  display:flex;
+  flex-wrap:wrap;
+  width:150px;
+}
+.SvgList{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  cursor: crosshair;
+  margin-top: 20px;
+}
+.Tool{
+  text-align: left;
+  width: 200px;
+  transition: 0.3s;
+}
+
+.Tool div{
+  background-color: #73a9df;
+  margin:10px;
+  color:white;
+  border-radius: 5px;
+  width:150px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s;
+}
+.Tool div:hover{
+  background-color: #3a4551;
+}
+.selectTool{
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+.inputs{
+  text-align: left; 
+}
+.inputs p {
+  margin: 2px;
+}
+.inputs input{
+  background-color: #73a9df;
+  border-radius: 5px;
+  color:white;
+  border:solid 1px white;
+  transition: 0.3s;
+}
+.inputs input:focus{
+  background-color: black;
+}
+.inputs button{
+  background-color: #73a9df;
+  border-radius: 5px;
+  border:solid 1px white;
+  color:white;
+  transition: 0.3s;
+  margin-left: 10px;
+  margin-top: 5px;
+  height: 25px;
+}
+.inputs button:hover{
+  background-color: #3a4551;
+  cursor: pointer;
+}
+.panelTools{
+  width: 200px;
+  margin: auto;
+}
+.chooseFile{
+  width: 200px;
+  background-color: #73a9df;
+  border-radius: 5px;
+  border:solid 1px white;
+  color:white;
+  transition: 0.3s;
+  cursor: pointer;
+}
